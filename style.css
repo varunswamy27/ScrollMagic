@@ -1,0 +1,120 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.nav-bar {
+  height: 100px;
+  background-color: blueviolet;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.viewport-section {
+  height: 100vh;
+  background-color: tomato;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+.left-section {
+  width: 50%;
+  height: 300px;
+  background-color: yellowgreen;
+  margin: 10px;
+  margin-left: -50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-section {
+  width: 50%;
+  height: 300px;
+  background-color: yellowgreen;
+  margin: 10px;
+  margin-right: -50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scale-section {
+  width: 50%;
+  height: 100px;
+  background-color: orange;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* transform: translateY(50px); */
+  transition: 0.7s ease-in-out;
+}
+.overlap-1 {
+  /* width: 100%; */
+  height: 100vh;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 400px;
+}
+.spacer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+.fade-in {
+  background-color: brown;
+  opacity: 1;
+  /* transform: translateY(0); */
+}
+.bcg-parallax {
+  padding: 150px 0;
+  color: black;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.bcg {
+  background-image: url("75023.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  top: 0%;
+  z-index: 2;
+  opacity: 0.7;
+}
+.content-wrapper {
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  z-index: 10;
+  padding: 50px 0;
+}
+.fade-in {
+  background-color: burlywood;
+  width: 100%;
+  height: 500px;
+}
+.left-after {
+  margin: 10px;
+}
+.right-after {
+  margin: 10px;
+}
